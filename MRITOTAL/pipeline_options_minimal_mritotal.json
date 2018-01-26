@@ -1,0 +1,35 @@
+{
+  "model":     "mni_icbm152_t1_tal_nlin_sym_09c",
+  "model_dir": "/gs/project/ypr-381-aa/vfonov/data/models/icbm152_model_09c",
+
+
+  "mri_3t":    false,
+  "qc":        true,
+  "qc_big":    true,
+  "t1w_clp":   null,
+  "t1w_nuc":   null,
+  "denoise":   null,
+  
+  "t1w_stx":   {
+                "type":"mritotal"
+               },
+               
+  "nl_reg":    null,
+  
+  "add":       {
+    "t2w_stx":   {"independent":true, "type":"-lsq6","objective": "-nmi","options": "bestlinreg_s2"},
+    "pdw_stx":   {"independent":false},
+    
+    "t2w_nuc":   null,
+    "pdw_nuc":   null
+  },
+  
+  "tissue_classify": {},
+  "lobe_segment": {},
+  
+  "beast":     null,
+  
+  "nl":        false,
+  "cls":       false,
+  "lobes":     false
+}

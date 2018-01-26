@@ -1,0 +1,2 @@
+BestLinReg, Revised BestLinReg, MRITOTAL, and Elastix have been run using ipl_preprocess_pipeline.py (https://github.com/vfonov/nist_mni_pipelines)
+All preprocessing and segmentation options of the pipeline have been set to null (see the .json files), therefore only the specified registrations are executed.
