@@ -5,4 +5,5 @@
 * `BestLinReg`,  `MRITOTAL`, and `Elastix` have been run using [ipl_preprocess_pipeline.py](https://github.com/vfonov/nist_mni_pipelines)  All preprocessing and segmentation options of the pipeline have been set to null (see the .json files), therefore only the specified registrations are executed.
 * `Revised BestLinReg` was run using standalone script 'bestlinreg_claude'
 * `ANTs` was run using modified script from ANTs distribution: <https://github.com/ANTsX/ANTs/blob/master/Scripts/newAntsExample.sh>
+* All experiments used [ICBM 2009a Nonlinear Symmetric template](http://nist.mni.mcgill.ca/?p=904) for registration target
 
