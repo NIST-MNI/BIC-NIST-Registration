@@ -14,8 +14,8 @@ out_xfm=$2.xfm
 out_qc=$2.qc.jpg
 name=$(basename $in .mnc)
 
-ref=/home/vfonov/data/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c_outline.mnc
-model=/home/vfonov/data/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c.mnc
+ref=models/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c_outline.mnc
+model=models/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c.mnc
 
 f=$in
 m=$model

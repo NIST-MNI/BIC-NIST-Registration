@@ -19,9 +19,9 @@ name=$(basename $in .mnc)
 source $FSLDIR/etc/fslconf/fsl.sh
 export PATH=$FSLDIR/bin:$PATH
 
-ref=/gs/project/ypr-381-aa/vfonov/data/models/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c_outline.mnc
-model=/gs/project/ypr-381-aa/vfonov/data/models/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c.mnc
-model_nifti=/gs/project/ypr-381-aa/vfonov/data/models/icbm152_model_09c_nii/mni_icbm152_t1_tal_nlin_sym_09c.nii.gz
+ref=models/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c_outline.mnc
+model=models/icbm152_model_09c/mni_icbm152_t1_tal_nlin_sym_09c.mnc
+model_nifti=models/icbm152_model_09c_nii/mni_icbm152_t1_tal_nlin_sym_09c.nii.gz
 
 mnc2nii $in $RAMDISK/in.nii
 

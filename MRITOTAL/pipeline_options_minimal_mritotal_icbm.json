@@ -1,6 +1,6 @@
 {
   "model":     "mni_icbm152_t1_tal_nlin_sym_09c",
-  "model_dir": "/gs/project/ypr-381-aa/vfonov/data/models/icbm152_model_09c",
+  "model_dir": "models/icbm152_model_09c",
 
 
   "mri_3t":    false,
