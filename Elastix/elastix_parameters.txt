@@ -1,0 +1,55 @@
+
+(FixedInternalImagePixelType "float")
+(MovingInternalImagePixelType "float")
+(FixedImageDimension 3)
+(MovingImageDimension 3)
+(UseDirectionCosines "true")
+
+(AutomaticTransformInitialization "true")
+(AutomaticTransformInitializationMethod "CenterOfGravity")
+(AutomaticScalesEstimation "true")
+(AutomaticParameterEstimation "true")
+(MaximumStepLength 1.0)
+
+(Registration         "MultiResolutionRegistration")
+(Interpolator         "BSplineInterpolator" )
+(ResampleInterpolator "FinalBSplineInterpolator" )
+(Resampler            "DefaultResampler" )
+(ShowExactMetricValue false)
+
+(FixedImagePyramid  "FixedSmoothingImagePyramid")
+(MovingImagePyramid "MovingSmoothingImagePyramid")
+
+(Optimizer "AdaptiveStochasticGradientDescent")
+(Transform "SimilarityTransform")
+(Metric    "AdvancedMattesMutualInformation")
+
+(HowToCombineTransforms "Compose")
+
+(ErodeMask "false")
+
+(NumberOfResolutions 3)
+
+(ImagePyramidSchedule 8 8 8  4 4 4  2 2 2 )
+
+(MaximumNumberOfIterations 4000 )
+(RequiredRatioOfValidSamples 0.01)
+(MaximumNumberOfSamplingAttempts 10)
+
+(NumberOfSpatialSamples  4096 )
+
+(NewSamplesEveryIteration "true")
+(ImageSampler             "Random" )
+
+(BSplineInterpolationOrder 1)
+
+(FinalBSplineInterpolationOrder 1)
+
+(DefaultPixelValue    0)
+
+(WriteResultImage     "false")
+
+// The pixel type and format of the resulting deformed moving image
+(ResultImagePixelType  "float")
+(ResultImageFormat     "mnc")
+                        
