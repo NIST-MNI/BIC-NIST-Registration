@@ -6,4 +6,6 @@
 * `Revised BestLinReg` was run using standalone script 'bestlinreg_claude'
 * `ANTs` was run using modified script from ANTs distribution: <https://github.com/ANTsX/ANTs/blob/master/Scripts/newAntsExample.sh>
 * All experiments used [ICBM 2009a Nonlinear Symmetric template](http://nist.mni.mcgill.ca/?p=904) for registration target
+* The neuroimage paper is at https://pubmed.ncbi.nlm.nih.gov/29548850/  by Dr. Dadar - "A comparison of publicly available linear MRI stereotaxic registration techniques", Neuroimage 2018 Jul 1;174:191-200.
+
 
